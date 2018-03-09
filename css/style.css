@@ -1,10 +1,64 @@
+/*pink #FF78C6 */
+/*light blue #91DBE8 */
+/*Background chalk #E8FFFE */
+/*sunshine yellow #FFEC85 */
+/*green-yellow #FFF585 */
+
 body {
-	color: hotpink;
-	background-color: black;
+	color: #FF78C6;
+	background-color: #E8FFFE ;
 	font-weight: 10px;
 	text-align: center;
 }
+.intro-text {
+	padding-left: 100px;
+}
 
-h1 {
-	margin-top: 300px;
+/*.triangle {
+    width:0; 
+    border-bottom:120px solid #FF78C6; 
+    border-left:0px solid #E8FFFE; 
+    border-right:900px solid #E8FFFE;
+    float: left;
+    z-index: 1;
+}*/
+h3 {
+	text-align: left;
+}
+
+.second {
+	margin-top: 200px;
+}
+
+.third {
+	margin-top: 100px;
+}
+
+.fourth {
+	margin-top: 200px;
+}
+
+/*// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+	h1 {
+		margin-top: 250px;
+	}
+ }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 993px) { 
+	h1 {
+		margin-top: 200px;
+	}
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
 }
